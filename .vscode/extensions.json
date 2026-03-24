@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "ms-dotnettools.csdevkit",
+        "ms-python.python",
+        "ms-azuretools.vscode-azurefunctions",
+        "ms-azuretools.vscode-bicep",
+        "github.vscode-pull-request-github"
+    ]
+}

@@ -1,0 +1,14 @@
+# Environments
+.venv/
+env/
+bin/
+obj/
+
+# Secrets
+local.settings.json
+*.user
+*.suo
+
+# OS
+.DS_Store
+Thumbs.db
