@@ -1,0 +1,37 @@
+name: "Mobile Environment Setup"
+description: "Initialize mobile project and configure ODK schema mapping"
+labels: ["mobile", "setup"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: "Welcome to the WEWE Widows Database project!"
+  
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: "Acceptance Criteria"
+      placeholder: |
+        - [ ] Project initialization
+        - [ ] Authentication layer
+        - [ ] Data schema (SQLite)
+        - [ ] Proof of Concept UI
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: sprint
+    attributes:
+      label: "Sprint"
+      options:
+        - "Sprint 1"
+        - "Sprint 2"
+        - "Sprint 3"
+    validations:
+      required: true
+  
+  - type: input
+    id: assignee
+    attributes:
+      label: "Assignee"
+      placeholder: "@username"
