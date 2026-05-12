@@ -1,0 +1,40 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="WEWE.Maui.Views.BenefitsPage" 
+             Title="Benefits; Distribution">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <Picker Title="Recipient Type" ItemsSource="{Binding RecipientTypes}" 
+SelectedItem="{Binding RecipientType}" />
+            <Entry Placeholder="Recipient ID" Text="{Binding RecipientID}" />
+            <Picker Title="Benefit Category" ItemsSource="{Binding BenefitCategories}" 
+SelectedItem="{Binding BenefitCategory}" />
+            <Entry Placeholder="Amount Value" Keyboard="Numeric" Text="{Binding 
+AmountValue}" />
+
+            <DatePicker Date="{Binding DateDelivered}" />
+            <Entry Placeholder="Field Officer ID" Text="{Binding FieldOfficerID}" />
+            <Entry Placeholder="LGA of Distribution" Text="{Binding LGAOfDistribution}" />
+
+            <Button Text="Save Benefit" Command="{Binding SaveBenefitCommand}" 
+BackgroundColor="DodgerBlue" TextColor="White" />
+
+            <CollectionView ItemsSource="{Binding Benefits}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Border Padding="10" Margin="5" Stroke="LightGray">
+                            <VerticalStackLayout>
+                                <Label Text="{Binding BenefitCategory}" FontAttributes="Bold" />
+                                <Label Text="{Binding AmountValue}" />
+                                <Label Text="{Binding DateDelivered}" />
+                            </VerticalStackLayout>
+                        </Border>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage> 

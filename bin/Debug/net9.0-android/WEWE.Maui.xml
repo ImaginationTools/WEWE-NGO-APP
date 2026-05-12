@@ -1,0 +1,288 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WEWE.Maui</name>
+    </assembly>
+    <members>
+        <member name="T:WEWE.Maui.ViewModels.BenefitViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:WEWE.Maui.ViewModels.BenefitViewModel.BenefitID">
+            <inheritdoc cref="F:WEWE.Maui.ViewModels.BenefitViewModel.benefitID"/>
+        </member>
+        <member name="P:WEWE.Maui.ViewModels.BenefitViewModel.RecipientType">
+            <inheritdoc cref="F:WEWE.Maui.ViewModels.BenefitViewModel.recipientType"/>
+        </member>
+        <member name="P:WEWE.Maui.ViewModels.BenefitViewModel.RecipientID">
+            <inheritdoc cref="F:WEWE.Maui.ViewModels.BenefitViewModel.recipientID"/>
+        </member>
+        <member name="P:WEWE.Maui.ViewModels.BenefitViewModel.BenefitCategory">
+            <inheritdoc cref="F:WEWE.Maui.ViewModels.BenefitViewModel.benefitCategory"/>
+        </member>
+        <member name="P:WEWE.Maui.ViewModels.BenefitViewModel.AmountValue">
+            <inheritdoc cref="F:WEWE.Maui.ViewModels.BenefitViewModel.amountValue"/>
+        </member>
+        <member name="P:WEWE.Maui.ViewModels.BenefitViewModel.DateDelivered">
+            <inheritdoc cref="F:WEWE.Maui.ViewModels.BenefitViewModel.dateDelivered"/>
+        </member>
+        <member name="P:WEWE.Maui.ViewModels.BenefitViewModel.FieldOfficerID">
+            <inheritdoc cref="F:WEWE.Maui.ViewModels.BenefitViewModel.fieldOfficerID"/>
+        </member>
+        <member name="P:WEWE.Maui.ViewModels.BenefitViewModel.LgaOfDistribution">
+            <inheritdoc cref="F:WEWE.Maui.ViewModels.BenefitViewModel.lgaOfDistribution"/>
+        </member>
+        <member name="T:WEWE.Maui.ViewModels.CaseViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:WEWE.Maui.ViewModels.CaseViewModel.CaseID">
+            <inheritdoc cref="F:WEWE.Maui.ViewModels.CaseViewModel.caseID"/>
+        </member>
+        <member name="P:WEWE.Maui.ViewModels.CaseViewModel.CaseType">
+            <inheritdoc cref="F:WEWE.Maui.ViewModels.CaseViewModel.caseType"/>
+        </member>
+        <member name="P:WEWE.Maui.ViewModels.CaseViewModel.ClientID">
+            <inheritdoc cref="F:WEWE.Maui.ViewModels.CaseViewModel.clientID"/>
+        </member>
+        <member name="P:WEWE.Maui.ViewModels.CaseViewModel.CaseTitle">
+            <inheritdoc cref="F:WEWE.Maui.ViewModels.CaseViewModel.caseTitle"/>
+        </member>
+        <member name="P:WEWE.Maui.ViewModels.CaseViewModel.CaseDescription">
+            <inheritdoc cref="F:WEWE.Maui.ViewModels.CaseViewModel.caseDescription"/>
+        </member>
+        <member name="P:WEWE.Maui.ViewModels.CaseViewModel.CaseStatus">
+            <inheritdoc cref="F:WEWE.Maui.ViewModels.CaseViewModel.caseStatus"/>
+        </member>
+        <member name="P:WEWE.Maui.ViewModels.CaseViewModel.DateOpened">
+            <inheritdoc cref="F:WEWE.Maui.ViewModels.CaseViewModel.dateOpened"/>
+        </member>
+        <member name="P:WEWE.Maui.ViewModels.CaseViewModel.DateClosed">
+            <inheritdoc cref="F:WEWE.Maui.ViewModels.CaseViewModel.dateClosed"/>
+        </member>
+        <member name="P:WEWE.Maui.ViewModels.CaseViewModel.AssignedOfficerID">
+            <inheritdoc cref="F:WEWE.Maui.ViewModels.CaseViewModel.assignedOfficerID"/>
+        </member>
+        <member name="P:WEWE.Maui.ViewModels.CaseViewModel.Lga">
+            <inheritdoc cref="F:WEWE.Maui.ViewModels.CaseViewModel.lga"/>
+        </member>
+        <member name="T:WEWE.Maui.ViewModels.WidowRegistrationViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:WEWE.Maui.ViewModels.WidowRegistrationViewModel.FullName">
+            <inheritdoc cref="F:WEWE.Maui.ViewModels.WidowRegistrationViewModel.fullName"/>
+        </member>
+        <member name="P:WEWE.Maui.ViewModels.WidowRegistrationViewModel.NationalID">
+            <inheritdoc cref="F:WEWE.Maui.ViewModels.WidowRegistrationViewModel.nationalID"/>
+        </member>
+        <member name="P:WEWE.Maui.ViewModels.WidowRegistrationViewModel.PhoneNumber">
+            <inheritdoc cref="F:WEWE.Maui.ViewModels.WidowRegistrationViewModel.phoneNumber"/>
+        </member>
+        <member name="P:WEWE.Maui.ViewModels.WidowRegistrationViewModel.Dob">
+            <inheritdoc cref="F:WEWE.Maui.ViewModels.WidowRegistrationViewModel.dob"/>
+        </member>
+        <member name="P:WEWE.Maui.ViewModels.WidowRegistrationViewModel.DependentsCount">
+            <inheritdoc cref="F:WEWE.Maui.ViewModels.WidowRegistrationViewModel.dependentsCount"/>
+        </member>
+        <member name="P:WEWE.Maui.ViewModels.WidowRegistrationViewModel.MonthlyIncome">
+            <inheritdoc cref="F:WEWE.Maui.ViewModels.WidowRegistrationViewModel.monthlyIncome"/>
+        </member>
+        <member name="P:WEWE.Maui.ViewModels.WidowRegistrationViewModel.HasDisability">
+            <inheritdoc cref="F:WEWE.Maui.ViewModels.WidowRegistrationViewModel.hasDisability"/>
+        </member>
+        <member name="P:WEWE.Maui.ViewModels.WidowRegistrationViewModel.HousingStatus">
+            <inheritdoc cref="F:WEWE.Maui.ViewModels.WidowRegistrationViewModel.housingStatus"/>
+        </member>
+        <member name="P:WEWE.Maui.ViewModels.WidowRegistrationViewModel.Lga">
+            <inheritdoc cref="F:WEWE.Maui.ViewModels.WidowRegistrationViewModel.lga"/>
+        </member>
+        <member name="P:WEWE.Maui.ViewModels.WidowRegistrationViewModel.State">
+            <inheritdoc cref="F:WEWE.Maui.ViewModels.WidowRegistrationViewModel.state"/>
+        </member>
+        <member name="F:WEWE.Maui.ViewModels.WidowRegistrationViewModel.saveWidowCommand">
+            <summary>The backing field for <see cref="P:WEWE.Maui.ViewModels.WidowRegistrationViewModel.SaveWidowCommand"/>.</summary>
+        </member>
+        <member name="P:WEWE.Maui.ViewModels.WidowRegistrationViewModel.SaveWidowCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:WEWE.Maui.ViewModels.WidowRegistrationViewModel.SaveWidow"/>.</summary>
+        </member>
+        <member name="T:WEWE.Maui.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.BenefitID">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "BenefitID" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.RecipientType">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "RecipientType" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.RecipientID">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "RecipientID" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.BenefitCategory">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "BenefitCategory" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.AmountValue">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "AmountValue" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.DateDelivered">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "DateDelivered" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.FieldOfficerID">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "FieldOfficerID" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.LgaOfDistribution">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "LgaOfDistribution" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CaseID">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CaseID" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CaseType">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CaseType" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ClientID">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ClientID" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CaseTitle">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CaseTitle" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CaseDescription">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CaseDescription" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CaseStatus">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CaseStatus" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.DateOpened">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "DateOpened" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.DateClosed">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "DateClosed" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.AssignedOfficerID">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "AssignedOfficerID" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Lga">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Lga" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.FullName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "FullName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.NationalID">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "NationalID" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.PhoneNumber">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "PhoneNumber" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Dob">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Dob" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.DependentsCount">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "DependentsCount" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.MonthlyIncome">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "MonthlyIncome" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.HasDisability">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "HasDisability" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.HousingStatus">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "HousingStatus" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.State">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "State" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.BenefitID">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "BenefitID" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.RecipientType">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "RecipientType" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.RecipientID">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "RecipientID" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.BenefitCategory">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "BenefitCategory" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.AmountValue">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "AmountValue" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.DateDelivered">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "DateDelivered" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.FieldOfficerID">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "FieldOfficerID" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.LgaOfDistribution">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "LgaOfDistribution" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CaseID">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CaseID" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CaseType">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CaseType" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ClientID">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ClientID" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CaseTitle">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CaseTitle" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CaseDescription">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CaseDescription" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CaseStatus">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CaseStatus" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.DateOpened">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "DateOpened" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.DateClosed">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "DateClosed" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.AssignedOfficerID">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "AssignedOfficerID" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Lga">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Lga" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.FullName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "FullName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.NationalID">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "NationalID" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.PhoneNumber">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "PhoneNumber" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Dob">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Dob" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.DependentsCount">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "DependentsCount" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.MonthlyIncome">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "MonthlyIncome" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.HasDisability">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "HasDisability" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.HousingStatus">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "HousingStatus" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.State">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "State" generated properties.</summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,30 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ViewModels="clr-namespace:WEWE.Maui.ViewModels"
+             x:Class="WEWE.Maui.Views.WidowRegistrationPage"
+             x:DataType="ViewModels:WidowRegistrationViewModel"
+             Title="Widow Registration">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <Entry Placeholder="Full Name" Text="{Binding FullName}" />
+            <Entry Placeholder="National ID" Text="{Binding NationalID}" />
+            <Entry Placeholder="Phone Number" Text="{Binding PhoneNumber}" />
+            <DatePicker Date="{Binding DOB}" />
+
+            <Entry Placeholder="Dependents Count" Keyboard="Numeric" Text="{Binding 
+DependentsCount}" />
+            <Entry Placeholder="Monthly Income" Keyboard="Numeric" Text="{Binding 
+MonthlyIncome}" />
+
+            <CheckBox IsChecked="{Binding HasDisability}" />
+            <Picker Title="Housing Status" ItemsSource="{Binding HousingOptions}" 
+SelectedItem="{Binding HousingStatus}" />
+            <Entry Placeholder="LGA" Text="{Binding LGA}" />
+            <Entry Placeholder="State" Text="{Binding State}" />
+            <Button Text="Save" Command="{Binding SaveWidowCommand}" 
+BackgroundColor="DodgerBlue" TextColor="White" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

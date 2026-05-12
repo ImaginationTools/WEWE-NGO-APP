@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell 
+xmlns="http://schemas.microsoft.com/dotnet/2021/maui" 
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+xmlns:views="clr-namespace:WEWE.Maui.Views" 
+x:Class="WEWE.Maui.AppShell">
+    <!-- Flyout Menu -->
+    <FlyoutItem Title="Widow Registration" Icon="widow_icon.png">
+        <ShellContent ContentTemplate="{DataTemplate views:WidowRegistrationPage}" />
+    </FlyoutItem>
+    <FlyoutItem Title="Orphan" Icon="orphan_icon.png">
+        <ShellContent ContentTemplate="{DataTemplate views:OrphanPage}" />
+    </FlyoutItem>
+    <FlyoutItem Title="Benefits" Icon="benefits_icon.png">
+        <ShellContent ContentTemplate="{DataTemplate views:BenefitsPage}" />
+    </FlyoutItem>
+    <FlyoutItem Title="Case Management" Icon="cases_icon.png">
+        <ShellContent ContentTemplate="{DataTemplate views:CaseManagementPage}" />
+    </FlyoutItem>
+</Shell>
